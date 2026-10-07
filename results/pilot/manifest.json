@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-10-01T06:41:47.320283+00:00",
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "source_commit": null,
+  "upstream_commit": "4257f44b0ff1181dedaedee6a447e133219fcebf",
+  "programs": [
+    "bitcount",
+    "gcd"
+  ],
+  "ranking_seeds": [
+    999
+  ],
+  "verifier_count": 16,
+  "hidden_count": 32,
+  "wall_seconds": 4.32179995799379,
+  "external_api_spend": 0,
+  "reused_matrices": false,
+  "source_sha256": {
+    "patchbudget/__init__.py": "841a1ddfd60a11aff1f00abf1c33fe69f5111e04265103d921f24837de6328eb",
+    "patchbudget/domains.py": "a4ea918a6721da6c2a47e289ff97ac47f3895cbc72eb712c2aa1d6cbf6e6d48b",
+    "patchbudget/execution.py": "5fcb4959cb553568b7c2428ee5d909bc93d3005c71c657d93eb2e11ca7b1f4ba",
+    "patchbudget/policies.py": "40e9860c65bbdcc282360a3934947f93f3eb75ed1599a254905c8b99c1e04330",
+    "scripts/prepare.py": "a9ca5c7c076248b14cdceaf55793dc6bf019f1c220464525632d3e02c89c2c90",
+    "scripts/run.py": "d566adfd354f3e377c7513eae0518f5df7057d2254c32643a6562a3b5c4c5cca"
+  }
+}

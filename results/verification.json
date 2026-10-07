@@ -1,0 +1,9 @@
+{
+  "programs": 16,
+  "selection_rows_verified": 116640,
+  "candidate_test_outcomes_reexecuted": 1446,
+  "disjoint_splits": true,
+  "reference_controls_pass": true,
+  "all_policy_selections_replayed": true,
+  "reproduction_matrices_match": false
+}

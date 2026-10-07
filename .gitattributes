@@ -1,0 +1,4 @@
+# Preserve standard-library CSV bytes, including CRLF, for artifact hashes.
+*.csv -text -whitespace
+*.pdf binary
+*.png binary

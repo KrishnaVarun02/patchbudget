@@ -1,0 +1,271 @@
+[
+  {
+    "program": "bitcount",
+    "candidates": 10,
+    "one_passers": 1,
+    "all_passers": 1,
+    "hidden_passing": 1,
+    "execution_seconds": 1.9161622079991503,
+    "oracle_seconds": 0.024363582997466438,
+    "developer_cases": 9,
+    "errors": {
+      "developer:StepLimit": 30,
+      "verifier:StepLimit": 226,
+      "hidden:StepLimit": 899
+    }
+  },
+  {
+    "program": "bucketsort",
+    "candidates": 9,
+    "one_passers": 6,
+    "all_passers": 1,
+    "hidden_passing": 1,
+    "execution_seconds": 0.2124256660026731,
+    "oracle_seconds": 0.02586358299595304,
+    "developer_cases": 7,
+    "errors": {
+      "developer:TypeError": 14,
+      "verifier:TypeError": 128,
+      "hidden:TypeError": 512
+    }
+  },
+  {
+    "program": "find_first_in_sorted",
+    "candidates": 24,
+    "one_passers": 10,
+    "all_passers": 5,
+    "hidden_passing": 2,
+    "execution_seconds": 1.867944500001613,
+    "oracle_seconds": 0.03498129200306721,
+    "developer_cases": 7,
+    "errors": {
+      "developer:IndexError": 16,
+      "developer:StepLimit": 18,
+      "verifier:IndexError": 136,
+      "verifier:StepLimit": 142,
+      "hidden:IndexError": 561,
+      "hidden:StepLimit": 668
+    }
+  },
+  {
+    "program": "gcd",
+    "candidates": 6,
+    "one_passers": 3,
+    "all_passers": 1,
+    "hidden_passing": 1,
+    "execution_seconds": 0.1859467920003226,
+    "oracle_seconds": 0.017810792007367127,
+    "developer_cases": 6,
+    "errors": {
+      "developer:RecursionError": 5,
+      "verifier:RecursionError": 64,
+      "hidden:RecursionError": 254,
+      "developer:ZeroDivisionError": 12,
+      "verifier:ZeroDivisionError": 88,
+      "hidden:ZeroDivisionError": 347
+    }
+  },
+  {
+    "program": "get_factors",
+    "candidates": 16,
+    "one_passers": 13,
+    "all_passers": 2,
+    "hidden_passing": 4,
+    "execution_seconds": 0.7555539159948239,
+    "oracle_seconds": 0.028998582987696864,
+    "developer_cases": 11,
+    "errors": {
+      "developer:TypeError": 5,
+      "verifier:TypeError": 52,
+      "hidden:TypeError": 218,
+      "developer:RecursionError": 13,
+      "developer:OverflowError": 2,
+      "verifier:RecursionError": 95,
+      "verifier:OverflowError": 20,
+      "verifier:StepLimit": 1,
+      "hidden:OverflowError": 75,
+      "hidden:RecursionError": 398,
+      "hidden:StepLimit": 1
+    }
+  },
+  {
+    "program": "is_valid_parenthesization",
+    "candidates": 17,
+    "one_passers": 3,
+    "all_passers": 1,
+    "hidden_passing": 1,
+    "execution_seconds": 0.3184997500065947,
+    "oracle_seconds": 0.023948166010086425,
+    "developer_cases": 3,
+    "errors": {}
+  },
+  {
+    "program": "knapsack",
+    "candidates": 23,
+    "one_passers": 8,
+    "all_passers": 5,
+    "hidden_passing": 4,
+    "execution_seconds": 1.2204448339907685,
+    "oracle_seconds": 0.07411574998695869,
+    "developer_cases": 9,
+    "errors": {
+      "developer:IndexError": 27,
+      "verifier:IndexError": 183,
+      "hidden:IndexError": 753
+    }
+  },
+  {
+    "program": "kth",
+    "candidates": 10,
+    "one_passers": 2,
+    "all_passers": 2,
+    "hidden_passing": 2,
+    "execution_seconds": 1.282909125002334,
+    "oracle_seconds": 0.0351537500100676,
+    "developer_cases": 7,
+    "errors": {
+      "developer:IndexError": 19,
+      "verifier:IndexError": 126,
+      "hidden:IndexError": 546,
+      "developer:RecursionError": 14,
+      "verifier:RecursionError": 105,
+      "verifier:StepLimit": 23,
+      "hidden:RecursionError": 399,
+      "hidden:StepLimit": 113
+    }
+  },
+  {
+    "program": "lcs_length",
+    "candidates": 14,
+    "one_passers": 4,
+    "all_passers": 1,
+    "hidden_passing": 1,
+    "execution_seconds": 0.3799928340013139,
+    "oracle_seconds": 0.0323007920087548,
+    "developer_cases": 9,
+    "errors": {}
+  },
+  {
+    "program": "lis",
+    "candidates": 24,
+    "one_passers": 22,
+    "all_passers": 3,
+    "hidden_passing": 2,
+    "execution_seconds": 0.7312835420016199,
+    "oracle_seconds": 0.04528720899543259,
+    "developer_cases": 12,
+    "errors": {
+      "developer:KeyError": 150,
+      "verifier:KeyError": 918,
+      "hidden:KeyError": 3628
+    }
+  },
+  {
+    "program": "max_sublist_sum",
+    "candidates": 9,
+    "one_passers": 6,
+    "all_passers": 2,
+    "hidden_passing": 2,
+    "execution_seconds": 0.18819074999191798,
+    "oracle_seconds": 0.02446083299582824,
+    "developer_cases": 6,
+    "errors": {}
+  },
+  {
+    "program": "mergesort",
+    "candidates": 23,
+    "one_passers": 23,
+    "all_passers": 2,
+    "hidden_passing": 2,
+    "execution_seconds": 3.6202772079996066,
+    "oracle_seconds": 0.0559949579910608,
+    "developer_cases": 14,
+    "errors": {
+      "developer:RecursionError": 78,
+      "verifier:RecursionError": 360,
+      "hidden:RecursionError": 1497,
+      "developer:IndexError": 63,
+      "verifier:IndexError": 252,
+      "hidden:IndexError": 1137,
+      "developer:StepLimit": 25,
+      "verifier:StepLimit": 100,
+      "hidden:StepLimit": 461
+    }
+  },
+  {
+    "program": "next_permutation",
+    "candidates": 25,
+    "one_passers": 8,
+    "all_passers": 5,
+    "hidden_passing": 2,
+    "execution_seconds": 0.7703918749903096,
+    "oracle_seconds": 0.07519141699594911,
+    "developer_cases": 8,
+    "errors": {
+      "developer:IndexError": 40,
+      "verifier:IndexError": 286,
+      "hidden:IndexError": 1207,
+      "developer:ValueError": 16,
+      "verifier:ValueError": 115,
+      "hidden:ValueError": 477
+    }
+  },
+  {
+    "program": "quicksort",
+    "candidates": 11,
+    "one_passers": 4,
+    "all_passers": 2,
+    "hidden_passing": 2,
+    "execution_seconds": 0.7392730419960571,
+    "oracle_seconds": 0.03431354199710768,
+    "developer_cases": 13,
+    "errors": {
+      "developer:IndexError": 13,
+      "verifier:IndexError": 63,
+      "hidden:IndexError": 256,
+      "developer:TypeError": 26,
+      "verifier:TypeError": 126,
+      "hidden:TypeError": 512,
+      "developer:RecursionError": 13,
+      "verifier:RecursionError": 56,
+      "verifier:StepLimit": 7,
+      "hidden:RecursionError": 237,
+      "hidden:StepLimit": 19
+    }
+  },
+  {
+    "program": "sieve",
+    "candidates": 11,
+    "one_passers": 9,
+    "all_passers": 1,
+    "hidden_passing": 1,
+    "execution_seconds": 4.096710792000522,
+    "oracle_seconds": 0.31023329199524596,
+    "developer_cases": 6,
+    "errors": {
+      "verifier:StepLimit": 153,
+      "hidden:StepLimit": 567
+    }
+  },
+  {
+    "program": "to_base",
+    "candidates": 9,
+    "one_passers": 2,
+    "all_passers": 1,
+    "hidden_passing": 1,
+    "execution_seconds": 6.155758665991016,
+    "oracle_seconds": 0.022508040987304412,
+    "developer_cases": 10,
+    "errors": {
+      "developer:StepLimit": 30,
+      "verifier:StepLimit": 192,
+      "hidden:StepLimit": 768,
+      "developer:TypeError": 20,
+      "verifier:TypeError": 128,
+      "hidden:TypeError": 512,
+      "developer:IndexError": 3,
+      "verifier:IndexError": 64,
+      "hidden:IndexError": 253
+    }
+  }
+]
